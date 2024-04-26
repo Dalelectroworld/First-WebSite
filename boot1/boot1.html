@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+   <div class="container bg-warning py-5 px-5"> 
+    <button class="btn btn-outline-success">Button</button>
+
+    <form action="" class="w-50 border p-5">
+        <h1 class="text-center bg-primary text-light py-3">Registration Form</h1>
+        <div class="mb-3 mt-3">
+          <!-- <label for="fullname" class="form-label">Full Name</label> -->
+          <input type="text" class="form-control" id="fullname" placeholder="Enter Full Name" name="fullname">
+        </div>
+
+        <div class="mb-3 mt-3">
+          <!-- <label for="email" class="form-label">Email:</label> -->
+          <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+        </div>
+
+        <div class="mb-3 mt-3">
+          <!-- <label for="email" class="form-label">Email:</label> -->
+          <input type="number" class="form-control" id="phonenumber" placeholder="Enter Phone Number" name="phonenumber">
+        </div>
+
+
+        <div class="mb-3 mt-3">
+          <!-- <label for="pwd" class="form-label">Password:</label> -->
+          <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+        </div>
+          
+        <select class="form-select">
+          <option>Jesse</option>
+          <option>Jayden</option>
+          <option>Janelle</option>
+          <option>David</option>
+        </select>
+
+        <div class="form-check">
+          <label for="">Select Items</label> <br>
+          <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something" checked>
+          <label class="form-check-label">Laptop</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something" checked>
+          <label class="form-check-label">Charger</label>
+        </div>
+
+        <label for="">Select Gender</label>
+        <div class="form-check">
+          <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>Male
+          <label class="form-check-label" for="radio1"></label>
+        </div>
+        <div class="form-check">
+          <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">Female
+          <label class="form-check-label" for="radio2"></label>
+        </div>
+
+        <div class="form-check">
+          <input type="file" class="form-control" id="radio2" name="optradio" value="option2">
+          <label class="form-check-label" for="radio2"></label>
+        </div>
+        
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
